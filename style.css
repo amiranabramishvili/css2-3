@@ -1,0 +1,148 @@
+#MainDiv {
+    display: block;
+    width: 790px;
+    height: 48px;
+    padding: 12px 24px;
+    margin-left: 670px;
+    background: #F7F4FF;
+}
+
+#LogoDiv {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#ManuDiv {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#ContactDiv {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#About {
+    display: inline-block;
+    margin-left: 130px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#whatweoffer {
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#Contact {
+    display: inline-block;
+    margin: 0 12px;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #8E26C0;
+}
+
+#Help {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#ContactButton {
+    display: inline-block;
+    margin-left: 98px;
+    font-weight: 500;
+    color: #8E26C0;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    padding: 8px 16px;
+    background-color: #F7F4FF;
+}
+
+#MaininfoDiv {
+    display: block;
+    margin-top: 100px;
+    margin-left: 273px;
+
+}
+
+#ImgDiv {
+    display: inline-block;
+}
+
+#InfoDiv {
+    display: inline-block;
+    width: 644px;
+    height: 325px;
+}
+
+#Offers {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#Lorem {
+    display: inline-block;
+    color: #535862;
+    width: 644px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#OrderList {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    height: 444px;
+}
+
+#Global {
+    margin-bottom: 12px;
+}
+
+#Flexible {
+    margin-bottom: 12px;
+}
+
+#Innovate {
+    margin-bottom: 12px;
+}
+
+#ContactUsDiv {
+    margin-top: 100px;
+    display: block;
+}
+
+#TitleDiv {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#TitleContact {
+    display: inline-block;
+    text-align: center;
+    width: 905px;
+    height: 68px;
+    font-size: 56px;
+    font-weight: 700;
+    margin-left: 380px;
+}
+
+#LoremDolor {
+    text-align: center;
+    margin-left: 428px;
+    display: inline-block;
+    color: #535862;
+    font-size: 20px;
+    font-weight: 400;
+    width: 734px;
+    height: 54px;
+}
