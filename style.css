@@ -1,148 +1,637 @@
-#MainDiv {
+#MainBarDiv {
     display: block;
-    width: 790px;
-    height: 48px;
+    box-sizing: border-box;
+    width: 1231px;
+    height: 72px;
     padding: 12px 24px;
-    margin-left: 670px;
     background: #F7F4FF;
+    margin-left: 274px;
 }
 
 #LogoDiv {
-    vertical-align: middle;
     display: inline-block;
+    vertical-align: middle;
 }
 
 #ManuDiv {
-    vertical-align: middle;
     display: inline-block;
+    font-size: 18px;
 }
 
 #ContactDiv {
-    vertical-align: middle;
     display: inline-block;
 }
 
 #About {
     display: inline-block;
-    margin-left: 130px;
-    font-size: 18px;
-    font-weight: 600;
+    vertical-align: middle;
+    margin-left: 277px;
 }
 
-#whatweoffer {
+#offer {
     display: inline-block;
-    margin: 0 12px;
-    font-size: 18px;
-    font-weight: 600;
+    vertical-align: middle;
+    margin: 0 20px;
 }
 
 #Contact {
     display: inline-block;
-    margin: 0 12px;
+    vertical-align: middle;
+    margin: 0 20px;
     margin-left: 0;
-    font-size: 18px;
     font-weight: 600;
     color: #8E26C0;
 }
 
 #Help {
     display: inline-block;
-    font-size: 18px;
-    font-weight: 600;
+    vertical-align: middle;
 }
 
-#ContactButton {
+#buttonId {
     display: inline-block;
-    margin-left: 98px;
-    font-weight: 500;
     color: #8E26C0;
+    font-style: normal;
+    padding: 8px 16px;
     border-radius: 8px;
     border: 1px solid #8E26C0;
-    padding: 8px 16px;
     background-color: #F7F4FF;
+    margin-left: 277px;
+
 }
 
-#MaininfoDiv {
+#DivContainer {
     display: block;
-    margin-top: 100px;
-    margin-left: 273px;
-
+    box-sizing: border-box;
+    width: 1448px;
+    height: 436px;
+    margin-left: 56px;
+    margin-top: 96px;
 }
 
 #ImgDiv {
     display: inline-block;
+    box-sizing: border-box;
+    width: 610px;
+    height: 458px;
 }
 
-#InfoDiv {
+#TextDiv {
     display: inline-block;
-    width: 644px;
-    height: 325px;
+    box-sizing: border-box;
+    width: 686px;
+    height: 458px;
 }
 
-#Offers {
-    display: block;
+#TitleP {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 800;
     color: #000;
     text-align: center;
-    font-weight: 700;
-    font-size: 40px;
+
 }
 
-#Lorem {
+#Loremipsum {
     display: inline-block;
-    color: #535862;
-    width: 644px;
-    height: 30px;
     font-size: 20px;
+    text-align: center;
+    color: #535862;
     font-weight: 400;
 }
 
 #OrderList {
-    display: inline-block;
+    color: #000;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    height: 444px;
 }
 
-#Global {
-    margin-bottom: 12px;
-}
-
-#Flexible {
-    margin-bottom: 12px;
-}
-
-#Innovate {
-    margin-bottom: 12px;
-}
-
-#ContactUsDiv {
-    margin-top: 100px;
+#ConteinerDiv {
     display: block;
+    margin: 0 auto;
+    width: 1221px;
+    box-sizing: border-box;
 }
 
-#TitleDiv {
+#DivErti {
+    margin: 0 auto;
+    width: 905px;
+    height: 140px;
+}
+
+#Us {
+    text-align: center;
+    font-size: 56px;
+    font-size: 700;
+}
+
+#veniam {
+    color: #535862;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#DivOri {
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 28px;
+    box-sizing: border-box;
+    width: 1221px;
+    height: 538px;
+    background: #F7F4FF;
+    margin-bottom: 140px;
+}
+
+#DivAddres {
     display: inline-block;
+    box-sizing: border-box;
+    width: 403px;
+    height: 474px;
+    padding: 2opx;
+    border-radius: 16px;
+    background: #fff;
+    gap: 24px;
+    vertical-align: top;
+
+}
+
+
+#Location {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#SpanErti {
+    display: inline-block;
+    width: 291px;
+    height: 29px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    ;
+
+}
+
+#GlenParagraph {
+    vertical-align: middle;
+    width: 291px;
+    color: #6D5F8B;
+    margin: 0;
+}
+
+#DivGlen {
+    display: inline-block;
+    height: 57px;
+    vertical-align: middle;
+    width: 100px;
+}
+
+
+#DivImages {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+#LocationDivv {
+    width: 363px;
+    height: 57px;
+    padding: 10px;
+}
+
+#EmailDiv {
+    width: 363px;
+    height: 57px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#EmailImage {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    vertical-align: middle;
+
+}
+
+#EmailParagraph {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    margin-left: 16px;
+}
+
+#SpanEmail {
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#EmailP {
+    margin: 0;
+    color: #6D5F8B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#PhoneDiv {
+    width: 363px;
+    height: 57px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#PhoneImage {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    vertical-align: middle;
+}
+
+#NumberDiv {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    margin-left: 16px;
+}
+
+#SpanPhone {
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#PhoneP {
+    margin: 0;
+    color: #6D5F8B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#SendDiv {
+    vertical-align: top;
+    display: inline-block;
+    width: 730px;
+    height: 474px;
+    gap: 24px;
+}
+
+#SendMassageDiv {
+    width: 730px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: 900;
+    vertical-align: top;
+    color: #1B003D;
+    margin-bottom: 16px;
+}
+
+#SendH {
+    display: inline-block;
+    margin: 0;
+}
+
+#MainDescriptionDiv {
+    display: inline-block;
+    width: 730px;
+    height: 414px;
+}
+
+#FullSpan {
+    color: #1B003D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#InputText {
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    padding: 8px 16px;
+    width: 698px;
+    height: 22px;
+    color: #6D5F8B;
+    background: #F7F4FF;
+    margin-bottom: 16px;
+}
+
+#EmailLabel {
+    color: #1B003D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#InputEmail {
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    padding: 8px 16px;
+    width: 698px;
+    height: 22px;
+    color: #6D5F8B;
+    background: #F7F4FF;
+    margin-bottom: 16px;
+}
+
+#TextArea {
+    border-radius: 16px;
+    border: 1px solid #8E26C0;
+    background: #F7F4FF;
+    color: #6D5F8B;
+    width: 730px;
+    height: 146px;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+}
+
+#LastSendDiv {
+    text-align: right;
+
+}
+
+#SendButton {
+    border-radius: 8px;
+    background: #8E26C0;
+    padding: 12px 24px;
+    border: none;
+    color: #fff;
+}
+
+body {
+    margin: 0;
+}
+
+#FooterTiton {
+    background: #53389E;
+    padding: 64px 0 48px 0;
+}
+
+#Conteinerii{
+    box-sizing: border-box;
+    padding: 0 32px;
+    width: 1216px;
+    height: 240px;
     margin: 0 auto;
 }
 
-#TitleContact {
+#ProductDiv {
+    width: 176px;
     display: inline-block;
-    text-align: center;
-    width: 905px;
-    height: 68px;
-    font-size: 56px;
-    font-weight: 700;
-    margin-left: 380px;
+    color: white;
+    list-style-type: none;
+    color: #D6BBFB;
 }
 
-#LoremDolor {
-    text-align: center;
-    margin-left: 428px;
+#Urodered {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+#Overview {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#Features {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#Solutions{
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#Tutorials{
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#Pricing{
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#Releases{
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#CompanyDiv{
+    margin-left: 30px;
+    width: 176px;
     display: inline-block;
-    color: #535862;
-    font-size: 20px;
-    font-weight: 400;
-    width: 734px;
-    height: 54px;
+    color: white;
+    list-style-type: none;
+    color: #D6BBFB;
+}
+
+#UComp {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+#Aboutt{
+    margin: 0 0 16px 0;
+    color: #E9D7FE;
+}
+
+#Careers {
+    margin-bottom: 16px 0;
+    color: #E9D7FE;
+}
+
+#Press {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#News{
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#Media {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#ConTQ {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#ResourcesDiv {
+    margin-left: 30px;
+    width: 176px;
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    color: #D6BBFB;
+}
+
+#ReSS {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+#Blog {
+    margin: 0 0 16px 0;
+    color: #E9D7FE;
+}
+
+#Newsletter {
+    margin-bottom: 16px 0;
+    color: #E9D7FE;
+}
+
+#Events {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#HelpCentre {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#Tut {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#Support {
+    margin: 16px 0;
+    color: #E9D7FE;
+}
+
+#UseCasesDiv {
+    margin-left: 30px;
+    width: 176px;
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    color: #D6BBFB;
+}
+
+#USA {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+} 
+
+#Startups {
+    margin: 0 0 16px 0;
+    color: #E9D7FE;
+}
+
+#Enterprise {
+    margin-bottom: 16px;
+    color: #E9D7FE;
+}
+
+#Government {
+    margin-bottom: 16px;
+    color: #E9D7FE;
+}
+
+#saas {
+    margin-bottom: 16px;
+    color: #E9D7FE;
+}
+
+#Marketplaces {
+    margin-bottom: 16px;
+    color: #E9D7FE;
+}
+
+#Ecommerce {
+    margin-bottom: 16px;
+    color: #E9D7FE;
+}
+
+#SocialDiv {
+    margin-left: 30px;
+    width: 176px;
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    color: #D6BBFB;
+}
+
+#SoC {
+    color: #E9D7FE;
+    list-style: none;
+    padding-left: 0;
+    margin: 16px 0 20px;
+}
+#SoC li {
+    color: #E9D7FE;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 16px;
+}
+
+#LegalDiv {
+    margin-left: 30px;
+    width: 80px;
+    display: inline-block;
+    color: white;
+    list-style-type: none;
+    color: #D6BBFB;
+}
+
+#HEH {
+    color: #E9D7FE;
+    list-style: none;
+    padding-left: 0;
+    margin: 16px 0 20px;
+}
+
+#HEH li {
+    color: #E9D7FE;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 16px;
+}
+
+#LastLOGo {
+    display: inline-block;
+    border-top: 1px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+#GRGR {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logloglo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#allright {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 1000px;
+}
+
+#ppp {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
